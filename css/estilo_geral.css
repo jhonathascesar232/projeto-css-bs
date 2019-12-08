@@ -72,3 +72,42 @@ nav {
 	text-transform: uppercase;
 	color: white;
 }
+
+.cards-container {
+	padding: .75rem 1.25rem;
+}
+
+.cards-container .card {
+	border-radius: 0;
+	border: none;
+}
+
+.cards-container .card-body {
+	background-color: rgb(70, 70, 70);
+	font-weight: normal;
+	font-size: .8rem;
+	color: white;
+	padding: 1rem .75rem;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+.row > .col-12{
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.rodape {
+	height: 5rem;
+	color: white;
+	font-size: .8rem;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	background-color: #6b6c68;
+	align-items: center; /*  align-items-center classe do bootstrap */
+	justify-content: center; /* justify-content-center */
+}
+
+.rodape p{
+	margin: 0;
+}
